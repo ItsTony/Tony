@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>register</title>
+	<link rel="stylesheet" type="text/css" href="cssstyle2.css">
+</head>
+<body>	
+	<div class="header">
+		<a href="Task.html">Home Page</a>
+	</div>
+	<h1>Register</h1>
+	<form>
+	<p>
+		Name:<input type="text" name="first_name" placeholder="Sarah">
+		Last name:<input type="text" name="last_name" placeholder="Brown">
+	</p>
+	<p> Select gender:
+		<select name="Gender">
+			<option value="">---</option>
+			<option value="1" selected="male">Male</option>
+			<option value="2">Female</option>
+			<option value="3">Apache helicopter</option>
+		</select>
+	</p>
+	<p>Age:
+		<label for="Under18">Under 18
+			<input type="radio" id="Under18" name="under18" value="under18">
+		</label>
+		<label for="over">Over 18
+			<input type="radio" id="Over" name="over18" value="over18">
+		</label>
+	</p>
+	<p>
+		I accept the terms in the license agreement<input type="checkbox" name="just_check_it_no_one_cares" required="true">
+	</p>
+	<p>
+		<input type="submit" name="Register" value="Register">
+	</p>
+</form>
+</body>
+</html>

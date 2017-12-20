@@ -1,0 +1,21 @@
+body,div,a,form{
+	padding: 0px;
+	margin: 0px;
+}
+.header{
+	background-color: #3b5998;
+	height: 45px;
+	width: 100%;
+	list-style-type: none;
+}
+a{
+	display: block;
+	text-align: center;
+	padding: 5px 8px;
+	text-decoration: none;
+	background-color: #dfe3ee;
+	margin: 2px;
+}
+body{
+	background-color: #f7f7f7;
+}

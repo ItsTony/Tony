@@ -1,0 +1,36 @@
+body,div,ul,li,a,p{
+	padding: 0px;
+	margin: 0px;
+}
+.header{
+	background-color: #3b5998;
+	height: 45px;
+	width: 100%;
+	list-style-type: none;
+}
+.sidebar{
+	background-color: #8b9dc3;
+	width: 180px;
+	height: 100%;
+	float: left;
+	padding-bottom: 100%;
+}
+ul{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+li{
+	float: left;
+}
+li a{
+	display: block;
+	text-align: center;
+	padding: 5px 8px;
+	text-decoration: none;
+	background-color: #dfe3ee;
+	margin: 2px;
+}
+body{
+	background-color: #f7f7f7;
+}
